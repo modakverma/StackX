@@ -2,33 +2,10 @@
 
 import { useRouter } from "next/navigation";
 
-interface OurWorkProps {
-  children: React.ReactNode;
-}
-
-const page:React.FC<OurWorkProps> = ({
-  children
-}) => {
+const page = () => {
 
   const router = useRouter();
   return (
-//     <div className="
-//     rotate-180
-//     flex
-//     w-full
-//     items-center
-//     justify-center
-//     pt-[20px]
-//     ">
-//       <svg className="
-//       rotate-180
-//       bg-white
-//       rounded-[50%]
-//       animate-bounce
-// w-[50px] h-[50px] p-[7px] text-[#016CEC]" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
-//       <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-//     </svg>
-//     </div>
 <div className='
 grid
 grid-cols-2
